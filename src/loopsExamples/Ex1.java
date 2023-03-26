@@ -14,7 +14,7 @@ public class Ex1 {
         while(i<=n){
             sum*=i;
             i++;
-
+            System.out.println("faktorial -"+i+"- = "+sum);
         }
         System.out.println("faktorial("+n+")= "+sum);
 
