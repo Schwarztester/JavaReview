@@ -22,7 +22,7 @@ public class Ex2 {
                         small=n;
                     bigger=m;}
         for (int i = small; i <=bigger ; i++) {
-            if (i%2==0){
+            if (i%2!=0){
                 System.out.print(i+", ");
             }
         }
