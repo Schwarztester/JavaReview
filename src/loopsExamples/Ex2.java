@@ -1,3 +1,4 @@
+package loopsExamples;
 
 import java.util.Scanner;
 
@@ -26,6 +27,28 @@ public class Ex2 {
                 System.out.print(i+", ");
             }
         }
+
+        //second way
+
+        System.out.print("please enter the first number : ");
+        int a= scan.nextInt();
+        System.out.print("please enter the second number : ");
+        int b= scan.nextInt();
+        int temp;
+        if(a>b) {
+           temp = b;
+            b=a;
+            a=temp;}
+
+
+
+       while (a<=b) {
+            if (a%2!=0){
+                System.out.print(a+", ");
+            }
+            a++;
+        }
+
 
 
     }
