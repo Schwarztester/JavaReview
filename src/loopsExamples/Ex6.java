@@ -18,13 +18,19 @@ public class Ex6 {
             m=n;
             n=temp;
         }
+        System.out.println("n:"+n+", m:"+m);
+        int devision= m-(n+1);
 
         while (n<=m){
             sum+=n;
             n++;
 
         }
-        System.out.println("sum = " + sum);
+        System.out.println(sum);
+
+        System.out.println("devision"+devision);
+       double average= (double) sum/devision;
+        System.out.println("average = " + average);
 
 
         }
