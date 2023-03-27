@@ -17,6 +17,16 @@ public class Ex3 {
 
 
         }
+        //second way
+        System.out.print("please enter your number:");
+
+        N= scanner.nextInt();
+         int j=1;
+        while(j<=N) {
+            System.out.println("Number="+j+", "+"its square="+j*j);
+            j++;
+        }
+
 
     }
 }
