@@ -21,5 +21,19 @@ int counter=0;
             System.out.println("YES");
         else
             System.out.println("NO");
+
+
+
+        //Second way of solution
+
+        int isPrime= 1;
+
+        for (int i = 2; i <n ; i++) {
+            if(n%i==0)
+                isPrime=0;
+        }
+        if (isPrime==1)
+            System.out.println("YES");
+        else System.out.println("NO");
     }
 }
