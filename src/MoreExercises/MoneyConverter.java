@@ -25,7 +25,7 @@ public class MoneyConverter {
 
 
         System.out.print("amount of your currency you want to convert: ");
-        double amounth = scanner1.nextInt();
+        double amounth = scanner1.nextDouble();
 
 
         if (currency.equalsIgnoreCase("x")) {
