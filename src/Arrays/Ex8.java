@@ -28,6 +28,7 @@ public class Ex8 {
                 isThere="YES";
                 System.out.println("YES");
                 System.out.println("index of " + m + "= " + i);
+                break;
 
             }
         }
